@@ -1,0 +1,23 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, #1e3c72, #636e82, #d3cce3);
+}
+
+.title{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    font-family: var(--font-poppins), sans-serif ;
+}
